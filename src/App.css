@@ -1,0 +1,25 @@
+* {
+    font-family: "Andale Mono", serif;
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: xx-large;
+    margin: 0;
+    padding: 5px 10px;
+    background-color: darkturquoise;
+    border-radius: 10px;
+    border-style: hidden;
+}
+
+button:hover {
+    background-color: mediumturquoise;
+    cursor: pointer;
+}
