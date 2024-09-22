@@ -8,6 +8,8 @@ function App() {
         setTime(new Date().toLocaleTimeString())
     }
     
+    setInterval(updateTime, 1000)
+    
     return (<div>
         <h1>{time}</h1>
         <button onClick={updateTime}>Get Time</button>
